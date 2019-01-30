@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(255, 249, 247);
+  color:rgb(0, 0, 0);
+}
+
+/*-------Headings-------*/
+
+h1, h2, h3 {
+color: rgb(0, 0, 0);
+font-family: 'Playfair Display', serif;
+
+}
+
+h2 {
+font-size: 24px;
+}
+
+.card-header h3 {
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  color: rgb(234, 242, 255);
+  text-align: center;
+}
+
+/*-------Links-------*/
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family:'PT Sans', sans-serif;
+
+}
+
+a:hover {
+  color: rgb(43, 74, 124);
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family:'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+/*-------Images-------*/
+#img-round {
+  height: 224px;
+  width: 200px;
+  border-radius: 54%;
+  margin: 10px auto;
+}
+img{
+  height: 327px;
+  width: 450px;
+  border-radius: 1%;
+
+}
+
+/*-------Cards-------*/
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    text-align: left;
+  }
+
+.card-center {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  text-align: center;
+}
+
+.card-center > li {
+  font-size: 20px;
+
+}
+.card-center-links {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-header {
+  background:(rgba(0, 0, 0, 0.5)), url(images/paris_street.jpeg);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/paris_street.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1000px 450px;
+  padding: 20px;
+  margin: 0 auto 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  height: 400px;
+  text-align: center;
+}
